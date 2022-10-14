@@ -1,27 +1,33 @@
-# AcmeCorpFrontend
+# Acme Corp Platform
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+The application has been developed using Bootstrap and Angular v9 framework. Name of the project management company is Acme Corp
 
-## Development server
+Assuming Angular CLI (v 9.1.8) is installed in your computer.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Below are the steps to run this application. Open terminal and exceute the following commands -
 
-## Code scaffolding
+```
+git clone https://github.com/samipjain/acme-corp-platform.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+cd acme-corp-platform
 
-## Build
+npm install && npm start
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This will start the application on your default browser. If happen otherwise, navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Make sure your server is running.
 
-## Running unit tests
+# Folder structure
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Within the `src/app` folder, there are 2 main files/folders - `components` and `services`.
 
-## Running end-to-end tests
+```
+src/app
+    - services
+        - create-task
+    - app.component.html
+    - app.component.ts
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The `services` folder connects the real data to components by fetching data backend server. HTML and Typescript logic are in app.component.html and app.component.ts
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Please email `samipjain1216@gmail.com` for any queries/comments.
